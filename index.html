@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <title>Your name</title> <!-- 修改成你的名字，它会显示在浏览器 Tab 的位置 -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg" /> <!-- 网站的图标，可换也可不换，它会显示在浏览器 Tab 的位置 -->
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -19,9 +19,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-block d-lg-none">Your name</span> <!-- 修改成你的名字 -->
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
+            </a> <!-- 修改成你的照片文件名（或者把你的照片文件名改为 profile.jpg 替换掉默认图片），显示在左侧导航栏的照片 -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
@@ -31,33 +31,43 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <!-- 上面这几行 li 开头的对应于网站左侧的导航栏。注意他们一定要和下面 “Page Content” 的内容一一对应。 -->
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
-            <!-- About-->
+            <!-- About--> <!-- 当你点击左侧栏的 About 的时候，最终就会显示你在这里写的内容。其实也就是对应上方的 About -->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
+                        FirstName <!-- 名字 -->
+                        <span class="text-primary">LastName</span> <!-- 姓氏 -->
                     </h1>
                     <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        ABCDEFGHIJKLMNOPQRSTUVWXYZ  <!-- 可以写任意内容，比如你的地址、你当前的 position 等等；也可以删除这行不写-->
+                        <a href="mailto:test@email.com">test@email.com</a> <!-- 邮箱地址 -->
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead mb-5">
+                        I am an <b>XXXXXX</b> in the <a class="mb-0" href="https://www.bing.com/" style="color:#00735e;">YYYYY</a> at the University of ZZZZZ.
+                        <!-- 使用 b,/b 把内容夹在中间代表加粗；使用 a,/a 把内容夹在中间代表超链接，且中间可以自定义一些想要的样式 -->
+                        <!-- 上述内容中，XXXXX 最终显示为加粗效果； YYYYY 会显示为绿色，且可以点击，点击之后会进入 https://www.bing.com/ -->
+                        <br> <!-- 使用 br 来另起一行 -->
+                        I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        <br> <!-- 根据具体内容需要，可以无限往下加段落 -->
+                        I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                    </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.bing.com/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.bing.com/"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.bing.com/"><i class="fab fa-twitter"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                        <!-- 上面这几个 a 开头的内容最终会显示为社交媒体图标，根据需要把 https://www.bing.com/ 替换为你的社交媒体主页链接；不需要的图标可以删除或者注释掉 -->
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
+            <!-- Experience--> <!-- 如果不需要某一部分内容，可以直接把该部分内容删除掉，同时注意也要把上面对应的一行删除掉 --> 
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
